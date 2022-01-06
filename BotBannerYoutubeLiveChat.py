@@ -14,7 +14,7 @@ client_secrets_file = "API/client_secret_project_YoutubeApi.json"
 liveChatId = None
 creds = None
 
-def OAuth():
+def OAuth(creds):
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
     # time.
@@ -104,14 +104,14 @@ def main():
     liveChatId = None
     Status = False
     while(True):
-        youtubeServices = OAuth()
+        youtubeServices = OAuth(creds)
         if liveChatId == None:
             liveChatId,VdoId = GetLiveChatChannelId(youtubeServices)
         else:
             chat = pytchat.create(video_id=VdoId)
             while chat.is_alive():
                 try:
-                    youtubeServices = OAuth()
+                    youtubeServices = OAuth(creds)
                     message = chat.get()
                     for c in message.items:
                         print(

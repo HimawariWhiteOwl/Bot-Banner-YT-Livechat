@@ -1,4 +1,4 @@
-# Bot-Banner-YT-Livechat
+# Bot-Banner-Youtube-Livechat
 This Bot it will be Hide and Ban Spam live chat on Youtube live chat
 messages Ban Example 
 {"Vun. rENt","VasK .tECh","VasF. Tech","VAsk .tech","vOh. FYI","vaWR. tecH","VOR .oNg","VoT .fYi","VUM .ngo","SisTER19IOI .oNLine","yoUr-dReAmS. OnlINE"}

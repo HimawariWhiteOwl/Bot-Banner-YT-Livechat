@@ -11,6 +11,8 @@ messages Ban Example
 - Click On Credentials
 - Create API
 - Create OAuth client ID
+- In OAuth consent screen go to Test users
+- Click ADD Users and Enter You Channel YouTube Email for Allow Access
 - In DropDown Please Select "DeskTop App"
 - Set Name
 - Click "Create" Button
